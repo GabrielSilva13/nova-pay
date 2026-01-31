@@ -1,4 +1,4 @@
-![CI](https://github.com/GabrielSilva13/<SEU_REPO>/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/GabrielSilva13/nova-pay/actions/workflows/ci.yml/badge.svg)
 
 # Bank Dashboard (Frontend Demo)
 
