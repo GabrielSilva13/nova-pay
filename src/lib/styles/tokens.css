@@ -1,0 +1,52 @@
+/* Tokens globais (NÃO hardcode em componentes) */
+:root {
+  /* colors */
+  --color-surface: #ffffff;
+  --color-primary: #0f172a; /* slate-900-ish, usado como "ink" */
+  --color-secondary: #16a34a; /* green-ish para positivo */
+  --color-muted: #94a3b8; /* slate-400-ish */
+  --color-destructive: #dc2626; /* red-ish */
+
+  /* radius */
+  --radius: 12px;
+
+  /* spacing (base 4px) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+
+  /* typography */
+  --font-size-xs: 12px;
+  --line-height-xs: 16px;
+
+  --font-size-sm: 14px;
+  --line-height-sm: 20px;
+
+  --font-size-md: 16px;
+  --line-height-md: 24px;
+
+  --font-size-lg: 18px;
+  --line-height-lg: 28px;
+
+  --font-size-xl: 20px;
+  --line-height-xl: 28px;
+
+  --font-size-2xl: 24px;
+  --line-height-2xl: 32px;
+
+  color-scheme: light;
+}
+
+/* Tema dark */
+:root[data-theme="dark"] {
+  --color-surface: #0b1220; /* fundo */
+  --color-primary: #e2e8f0; /* texto */
+  --color-secondary: #22c55e;
+  --color-muted: #64748b;
+  --color-destructive: #f87171;
+
+  color-scheme: dark;
+}
